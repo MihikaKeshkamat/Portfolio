@@ -223,17 +223,63 @@ h5{
 }
 
 #upcoming3{
-    background-image: url('upcoming3.PNG'); /* Specify the path to your background image */
+    background-image: url('Capture.PNG'); /* Specify the path to your background image */
     background-size: cover; /* Cover the entire card */
     background-position: center; /* Center the background image */
     border-radius: 1.5rem;
 }
-/* .event_article{
-    position: relative; 
-    overflow:hidden; 
-}  */
+#readQuest{
+    background-image: url('readquest.PNG'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire card */
+    background-position: center; /* Center the background image */
+    border-radius: 1.5rem;
+    margin-left: 100px; 
+    margin-right: 70px;
+}
 
+#weather{
+    margin-left: 30px; 
+    margin-right: 70px;
+    background-image: url('weather.PNG'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire card */
+    background-position: center; /* Center the background image */
+    border-radius: 1.5rem; 
+    border:2px solid black; 
+}
 
+#expense{
+    background-image: url('expense.PNG'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire card */
+    background-position: center; /* Center the background image */
+    border-radius: 1.5rem;
+    object-fit: cover;
+}
+
+#bmicalc{
+    background-image: url('bmicalc.PNG'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire card */
+    background-position: center; /* Center the background image */
+    border-radius: 1.5rem;
+    margin-left: 100px; 
+    margin-right: 70px;
+}
+
+#calculator{
+    margin-left: 30px; 
+    margin-right: 70px;
+    background-image: url('calculator.PNG'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire card */
+    background-position: center; /* Center the background image */
+    border-radius: 1.5rem; 
+    border:2px solid black; 
+}
+
+#anubrahman{
+    background-image: url('anubrahman.PNG'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire card */
+    background-position: center; /* Center the background image */
+    border-radius: 1.5rem;
+}
 .card_data{
     width:280px;
     background-color: #fff;
@@ -314,9 +360,11 @@ h5{
     margin: 10px;
     flex: 1; 
     height:50vh; 
-    font-size: 30px; 
+    font-size: 24px; 
     border-radius: 10px;
-
+    overflow:hidden;
+    word-wrap:break-word;
+    
 } 
 #courses{
     background-color: #CDFFF9; 
@@ -338,4 +386,29 @@ h5{
 .certicontent{
     padding-top: 40px; 
     text-decoration: none; 
+    font:20px;
 } 
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 220px;
+    margin-top: 0px;
+    font-size: 30px;
+    padding-top: 0px;
+}
+table {
+    margin-top: 0px;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+}
+th, td {
+    /* margin-top: 0px; */
+    border: 1px solid black;
+    padding: 10px;
+}
+th {
+    background-color: #f2f2f2;
+}
